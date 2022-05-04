@@ -1,2 +1,2 @@
 # passwordgen.terrifictable.pw
-Web Password Generator
+Online Password Generator
