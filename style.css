@@ -1,0 +1,35 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    font-size: 20px;
+}
+
+.gen_v1 {
+    font-size: 25px;
+} .gen_v2 {
+    font-size: 25px;
+}
+
+#password {
+    color: rgb(255, 0, 0);
+    position: absolute;
+    bottom: 67%;
+    left: 1%;
+}
+#password-label {
+    position: absolute;
+    bottom: 70%;
+    left: 1%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 80%;
+}
+
+#label {
+    font-size: 55px;
+    line-height: 20px;
+}
