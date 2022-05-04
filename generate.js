@@ -1,7 +1,7 @@
 generatePassword_v2()
 
 function generatePassword_v2() {
-    var password_label = document.getElementById("password-label");
+    var password_label = document.getElementById("password");
     var password = '';
 
 
@@ -15,19 +15,19 @@ function generatePassword_v2() {
     }
         
     console.log(password);
-    password_label.innerHTML = "Password: " + password;
+    password_label.innerHTML = password;
 
 
     return password;
 }
 
 function generatePassword_v1() {
-    var password_label = document.getElementById("password-label");
+    var password_label = document.getElementById("password");
 
     password = Math.random().toString(36).slice(2) + Math.random().toString(36).toUpperCase().slice(2);
 
     console.log(password);
-    password_label.innerHTML = "Password: " + password;
+    password_label.innerHTML = password;
 
     return password;
 }
