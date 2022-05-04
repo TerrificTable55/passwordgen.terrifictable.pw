@@ -3,20 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
+    <!-- Load Style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
     
     <title>Password Generator</title>
   </head>
   <body>
     
     <div class="main">
-      <h1>Password Generator</h1><hr>
+      <h1 id="label">Password Generator</h1><hr>
       
-      <h3 id="password-label">Password: </h3>
-      <button onclick="generatePassword_v1()" class="gen_v1">Generate (v1)</button>
-      <button onclick="generatePassword_v2()" class="gen_v2">Generate (v2)</button>
+      <h3 id="password-label">Password:</h3>
+      <h3 id="password"></h3>
+      <footer class="footer">
+        <button onclick="generatePassword_v1()" class="gen_v1">Generate (v1)</button>
+        <button onclick="generatePassword_v2()" class="gen_v2">Generate (v2)</button>
+      </footer>
     </div>
     
+    <!-- Load Password Generator -->
     <script type="text/javascript" src="/generate.js"></script>
     
   </body>
